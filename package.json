@@ -1,0 +1,34 @@
+{
+  "name": "store-planner-3d",
+  "version": "0.1.0",
+  "description": "3D retail store layout planner — React, TypeScript, React Three Fiber",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p . && vite build",
+    "build:single": "SINGLE=1 vite build --outDir dist-single",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc -p ."
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.187.0",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vite-plugin-singlefile": "^2.3.4",
+    "vitest": "^5.1.0"
+  },
+  "private": true,
+  "type": "module"
+}
