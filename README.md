@@ -3,7 +3,7 @@
 A small 3D retail layout planner: drag shelves, tables, racks and checkouts around a store floor,
 switch between 3D and plan view, and get instant feedback on conflicts.
 
-**Live demo:** _add your GitHub Pages link here_
+**Live demo:** https://store-planner-3d.vercel.app/
 
 ![screenshot](docs/screenshot.png)
 
